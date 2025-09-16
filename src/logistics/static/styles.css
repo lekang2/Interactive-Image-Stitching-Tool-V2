@@ -1,0 +1,85 @@
+body {
+  background-image: url('{% static "images/backimg.png" %}');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sidebar {
+  background-color: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+  padding-top: 60px; /* 增加顶部内边距 */
+}
+
+.nav-link {
+  font-weight: bold; /* 加粗字体 */
+  font-size: 1.2em; /* 增大字体大小 */
+  color: white; /* 设置字体颜色，确保在背景上可见 */
+  padding: 10px 20px; /* 增加内边距，使其看起来像按钮 */
+  margin-bottom: 20px; /* 增加底部外边距，分隔每个按钮 */
+  background-color: rgba(0, 0, 0, 0.5); /* 设置半透明背景 */
+  border-radius: 5px; /* 圆角边框 */
+  text-align: center; /* 文字居中 */
+}
+
+.nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* 鼠标悬停时的背景颜色 */
+  color: white; /* 鼠标悬停时的字体颜色 */
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+input[type = submit]:hover{
+  background-color: lightgray;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+label{
+  padding: 10px;
+  font-weight: bold;
+}
+
+.table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table td {
+  white-space: pre-line; /* 允许换行 */
+}
