@@ -32,3 +32,20 @@ pip install -r requirements.txt
 python manage.py runserver
 
 Then open http://127.0.0.1:8000 in your browser.
+
+Docker Deployment
+cd docker
+docker build -t image-stitching .
+docker run -p 8000:8000 image-stitching
+
+📂 Project Structure
+
+src/ – Django web application
+
+algorithms/ – Computer vision modules (SIFT, RANSAC, hypothesis test)
+
+evaluation/ – Visualization scripts and results
+
+docker/ – Deployment files
+
+docs/ – Reports, presentation, architecture, demo video
