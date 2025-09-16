@@ -10,6 +10,7 @@ The application dynamically visualizes:
 - Final stitched image (when validated)
 
 - ## 🎥 Demo
+- ![Demo](demo-img.gif)
 
 
 ## 🌟 Features
